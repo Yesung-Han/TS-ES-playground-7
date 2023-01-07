@@ -4,6 +4,7 @@ export type ESDocument = {
   _id: string
   _score: number,
   _source: object
+  sort?: number[]
 }
 
 export  type QueryResults = ESDocument[];
